@@ -1,5 +1,6 @@
 import random
 
+
 def generate_round():
     length = random.randint(5, 10)  
     start = random.randint(1, 10)  
@@ -12,5 +13,6 @@ def generate_round():
     
     question = " ".join(map(str, progression))
     return question, correct_answer
+
 
 DESCRIPTION = "What number is missing in the progression?"
