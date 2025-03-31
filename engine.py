@@ -1,5 +1,4 @@
 def run_game(game_logic, description):
-    """Функция запускает игру с переданной логикой."""
     print("Welcome to the Brain Games!\n")
     name = input("May I have your name? ")
     print(f"Hello, {name}!\n")
